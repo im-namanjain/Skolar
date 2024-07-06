@@ -1,0 +1,31 @@
+p {
+    color: blue;
+}
+
+.group {
+    margin: 10px;
+    font-style: italic;
+}
+
+#unique {
+    font-size: 20px;
+    color: green;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pseudo-elements p::before {
+    content: "Before ";
+    color: purple;
+}
+
+.pseudo-elements p::after {
+    content: " After";
+    color: orange;
+}
