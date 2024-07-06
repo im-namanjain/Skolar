@@ -1,0 +1,11 @@
+:root {
+    --main-color: lightcoral;
+    --padding: 20px;
+    --margin: 10px;
+}
+
+.variable-box {
+    background-color: var(--main-color);
+    padding: var(--padding);
+    margin: var(--margin);
+}

@@ -1,0 +1,15 @@
+.pseudo-class:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+/* Pseudo-Elements */
+.pseudo-element p::before {
+    content: "Before ";
+    color: purple;
+}
+
+.pseudo-element p::after {
+    content: " After";
+    color: orange;
+}

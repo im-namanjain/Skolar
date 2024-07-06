@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: deepskyblue;
+}
+
+/* Card Component */
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: white;
+}
