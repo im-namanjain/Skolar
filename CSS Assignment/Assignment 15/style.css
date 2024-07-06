@@ -1,0 +1,6 @@
+.transform-box {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    transform: translate(50px, 50px) rotate(45deg) scale(1.5);
+}

@@ -1,0 +1,20 @@
+.box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    margin: 10px;
+}
+
+.low-zindex {
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+}
+
+.high-zindex {
+    z-index: 10;
+    top: 70px;
+    left: 70px;
+    background-color: lightblue;
+}
