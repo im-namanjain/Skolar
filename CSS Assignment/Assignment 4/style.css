@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+.box-model {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    background-color: lightblue;
+}
